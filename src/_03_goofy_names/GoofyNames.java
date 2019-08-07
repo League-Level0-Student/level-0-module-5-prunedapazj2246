@@ -8,16 +8,18 @@ import javax.swing.JOptionPane;
 
 public class GoofyNames {
 	public static void main(String[] args) {
-		String goofyName = "";
-
+		String goofyName = JOptionPane.showInputDialog("Enter your name.");
+String character = goofyName
 		// 1. Ask the user to enter their name
 
-		// 2. Print upper case name to the console using .toUpperCase()
+	System.out.println(goofyName.toUpperCase());	// 2. Print upper case name to the console using .toUpperCase()
 		//    Run your program to see that this works.
 
 		// 3. Loop through each character of the name (steps 4 - 6).
 		//    HINT: Use .length() to determine the number of characters in the String.
-
+for (int i = 0; i < goofyName.length(); i++) {
+	
+}
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
