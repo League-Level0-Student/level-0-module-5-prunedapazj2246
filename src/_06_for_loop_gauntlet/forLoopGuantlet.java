@@ -1,3 +1,4 @@
+package _06_for_loop_gauntlet;
 
 public class forLoopGuantlet {
 
@@ -50,12 +51,39 @@ for (int j = 0; j <= 2; j++) {
 }*/
 for (int i = 1; i <= 10; i++) {
 	
-	for (int j = 1; j <= 100; j+=20) {
-	System.out.print(i+""+j);	
+	for (int j = 1; j <= 10; j++ ) {
+	int blah = i + j;
+	
+	if(j==10&& i == 10) {
+		System.out.print(i + "100");
 	}
-	System.out.println("");
+	else if(j==10)
+		System.out.print(i);
+	else if(i==10) {
+		System.out.print(i+" 20 "+);
+		
+	}
+	else {
+		System.out.print(i+" "+j);	
+	}
+	
+	}
+	System.out.println(" ");
 }
-
+/*for (int i = 0; i <=2; i++) {
+	for (int j = 2; j <= 2; j++) {
+	int blah=i+j;
+	int d = i +1;
+		System.out.println(d+" "+ blah);
+	i+=1;
+	}
+	//System.out.println("");
+}
+for (int i = 1; i < 3.5; i++) {
+	for (int j = 1; j < 7; j++) {
+	System.out.println(i+j);	
+	}
+}*/
 }
 	}
 
