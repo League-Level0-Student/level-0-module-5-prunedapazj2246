@@ -49,19 +49,20 @@ for (int j = 0; j <= 2; j++) {
 }
 
 }*/
-for (int i = 1; i <= 10; i++) {
+/*for (int i = 1; i <= 10; i++) {
 	
 	for (int j = 1; j <= 10; j++ ) {
 	int blah = i + j;
 	
-	if(j==10&& i == 10) {
-		System.out.print(i + "100");
+	if(j==10&& i > 10) {
+		System.out.print(i );
+		
 	}
 	else if(j==10)
 		System.out.print(i);
-	else if(i==10) {
-		System.out.print(i+" 20 "+);
-		
+	else if(i>=10) {
+		System.out.print(i+" ");
+		i+=10;
 	}
 	else {
 		System.out.print(i+" "+j);	
@@ -69,7 +70,7 @@ for (int i = 1; i <= 10; i++) {
 	
 	}
 	System.out.println(" ");
-}
+}*/
 /*for (int i = 0; i <=2; i++) {
 	for (int j = 2; j <= 2; j++) {
 	int blah=i+j;
@@ -78,12 +79,24 @@ for (int i = 1; i <= 10; i++) {
 	i+=1;
 	}
 	//System.out.println("");
-}
-for (int i = 1; i < 3.5; i++) {
-	for (int j = 1; j < 7; j++) {
-	System.out.println(i+j);	
-	}
 }*/
+/*for (int i = 1; i < 2; i++) {
+	String asterix = "*";
+	for (int j = 1; j < 7; j++) {
+	if(j==1) {
+		System.out.print(asterix);
+		System.out.println("");
+	}
+	else {
+		System.out.print(asterix+="*");
+		System.out.println("");
+	}
+	}
+	
+}*/
+		for (int j = 0; j < 100; j++) {
+		
+		}
 }
 	}
 
