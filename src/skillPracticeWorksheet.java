@@ -6,16 +6,16 @@ public class skillPracticeWorksheet {
 public static void main(String[] args) {
 
 skillPracticeWorksheet skills = new skillPracticeWorksheet();
-          	skills.skill1();
-          	skills.skill2();
-          	skills.skill3();
+          	//skills.skill1();
+          	//skills.skill2();
+          	//skills.skill3();
           	skills.skill4();
           	skills.skill5();
 }
 
 void skill1() {
 String dimes = JOptionPane.showInputDialog("How many dimes do you have?");// Use pop-ups for the following.
-// Ask the user how many dimes they hav
+// Ask the user how many dimes they have
 int pennies = Integer.parseInt(dimes);
 pennies*=10;
 JOptionPane.showMessageDialog(null, "You have "+ pennies +" pennies");
@@ -89,9 +89,12 @@ if(cars==0) {
 	JOptionPane.showMessageDialog(null, "I bet you use public transportation.");
 }
 else if(cars==1) {
-	JOptionPane.showMessageDialog(null, "");
+	JOptionPane.showMessageDialog(null, "Bougatti, Chiron Model");
 }
-
+else {
+	cars*=4;
+	JOptionPane.showMessageDialog(null, "You have " + cars + " wheels on all your cars");
+}
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
 
 
@@ -108,9 +111,9 @@ else if(cars==1) {
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
 
+String school=JOptionPane.showInputDialog("What is the name of you school?");
 
-
-// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
+JOptionPane.showMessageDialog(null,  school + " is amazing");// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
 
 
 
